@@ -1,0 +1,6 @@
+.vs/
+obj/
+*.nupkg
+packages/
+bin/
+RabbitMQMailService/_temp.config
