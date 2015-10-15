@@ -51,6 +51,10 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="content\app.config.install.xdt" />
+    <None Include="content\app.config.uninstall.xdt" />
+    <None Include="content\web.config.uninstall.xdt" />
+    <None Include="content\web.config.install.xdt" />
     <None Include="NuGetPackage.ps1" />
     <None Include="NuGetSetup.ps1" />
     <None Include="NuGet.exe" />
@@ -60,9 +64,7 @@
     </None>
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="content\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Reference Include="AMQPManager, Version=1.4.0.2, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\AMQPManager.1.4.2\lib\net35\AMQPManager.dll</HintPath>

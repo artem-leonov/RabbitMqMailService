@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration xmlns:xdt="http://schemas.microsoft.com/XML-Document-Transform">
+  <configSections>
+    <section xdt:Transform="Remove(name)" name="rabbitMqMailClient"/>
+    <section xdt:Transform="Insert" name="rabbitMqMailClient" type="RabbitMQMailClient.ConfigurationSections.RabbitMqMailClientSettings, RabbitMQMailClient" />
+  </configSections>
+  <rabbitMqMailClient xdt:Transform="Remove"/>
+  <rabbitMqMailClient xdt:Transform="Insert" queue="MailServer" host="localhost" username="user" password="pass" />
+</configuration>
